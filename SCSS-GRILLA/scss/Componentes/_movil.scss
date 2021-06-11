@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 768px) {
+   
+    .grilla {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1em;
+        margin: 5em auto;
+        border-radius: 50px;
+        border: solid #054361;
+        border-width: 15px; 
+        
+    }
+    .item {
+        min-height: auto;
+    }
+
+    .item0, .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
