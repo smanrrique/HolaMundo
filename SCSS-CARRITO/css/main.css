@@ -1,0 +1,167 @@
+*,
+*::after,
+*::before {
+  border: 0 none;
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+}
+
+body {
+  font-family: "Manjari", sans-serif;
+}
+
+.contenido {
+  width: 90%;
+  max-width: 1500px;
+  margin: 6em 3em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 3px solid #000000;
+  border-radius: 20px;
+}
+
+.descripcion {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 1em;
+}
+
+.imagen {
+  grid-column: span 2;
+}
+
+.imagen img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.texto {
+  margin: 0.5em 0em;
+  grid-column: span 8;
+}
+
+.detalle-imagen {
+  grid-column: span 6;
+  max-width: 700px;
+  max-height: 350px;
+}
+
+.detalle-imagen img {
+  width: 100%;
+  height: 100%;
+}
+
+.colores {
+  grid-column: span 4;
+  width: 90%;
+  margin: 1em auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+.texto2 {
+  width: 90%;
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5em;
+}
+
+.texto2 p {
+  grid-column: span 3;
+}
+
+.bolita {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+
+.item1 {
+  grid-column: span 1;
+  background-color: #f3dfc3;
+}
+
+.item2 {
+  grid-column: span 1;
+  background-color: #d6a988;
+}
+
+.item3 {
+  grid-column: span 1;
+  background-color: #797979;
+}
+
+.precio {
+  grid-column: span 3;
+}
+
+.produto {
+  grid-column: span 10;
+}
+
+.descripcion-producto {
+  grid-column: span 10;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.sub-descripcion {
+  grid-column: span 10;
+}
+
+.botones {
+  grid-column: span 10;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  display: grid;
+  min-height: 50px;
+}
+
+.btn1 {
+  background-color: #e0c8ab;
+  border-radius: 0px 0px 0px 20px;
+}
+
+.btn2 {
+  background-color: #392e2a;
+}
+
+.btn1 h3,
+.btn2 h3 {
+  margin: 1em 5em;
+}
+
+.produto p,
+.descripcion-item2 h2,
+.descripcion-item3 h2 {
+  color: #c3c3c6;
+}
+
+.btn2 h3 {
+  color: #ffffff;
+}
+
+.descripcion > .imagen,
+.descripcion > .texto,
+.descripcion > .detalle-imagen,
+.descripcion > .colores,
+.descripcion > .produto,
+.descripcion > .descripcion-producto,
+.descripcion > .sub-descripcion {
+  margin: 1em 1.5em;
+}
+
+.imagen-completa img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 20px 20px 0px;
+}
+
+/*# sourceMappingURL=main.css.map */
