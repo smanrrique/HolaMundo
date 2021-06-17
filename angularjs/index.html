@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ANGULAR JS</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body ng-app="appModule" ng-controller="principalCtrl">
+    <h1>{{mundo}}</h1>
+    <h1>{{hola}}</h1>
+
+    <input type="text" ng-model="hola">
+
+    <button type="button" name="button" ng-click="imprimir()">Imprime</button>
+    <ul>
+        <li ng-repeat="letra in lista track by $index">{{letra.nombre}} -> {{$index}}</li>
+    </ul>
+
+    <script src="angularjs.js" charset="utf-8"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>

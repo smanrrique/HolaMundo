@@ -1,0 +1,34 @@
+:root {
+    --color-base: #eaf2ff;
+}
+
+* {
+    border: 0 none;
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0 none;
+    padding: 0:
+}
+
+html
+, body {
+    background-color: var(--color-base);
+    height: 100%;
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: blue;
+}
+
+input {
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid #CCC;
+    
+}
